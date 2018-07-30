@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Prueba">
+      <implementation-class>com.umg.servicio.Prueba</implementation-class>
+    </service>
+    <service name="WSAula">
+      <implementation-class>com.umg.servicio.WSAula</implementation-class>
+    </service>
+    <service name="WSAlumno">
+      <implementation-class>com.umg.servicio.WSAlumno</implementation-class>
+    </service>
+    <service name="WSCatedratico">
+      <implementation-class>com.umg.servicio.WSCatedratico</implementation-class>
+    </service>
+    <service name="WSCurso">
+      <implementation-class>com.umg.servicio.WSCurso</implementation-class>
+    </service>
+    <service name="WSExpediente">
+      <implementation-class>com.umg.servicio.WSExpediente</implementation-class>
+    </service>
+    <service name="WSImagen">
+      <implementation-class>com.umg.servicio.WSImagen</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
